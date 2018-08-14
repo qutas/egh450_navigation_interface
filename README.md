@@ -10,7 +10,6 @@ catkin_make
 source ~/catkin_ws/devel/setup.bash
 ```
 
-
 ## Usage
 To run a basic demonstration off of contrail navigation interface, first launch `uavusr_emulator` guidance example as per usual. Next, you will need to make a copy of the demo launch file:
 ```
