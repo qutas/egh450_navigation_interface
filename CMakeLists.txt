@@ -9,9 +9,9 @@ project(egh450_navigation_interface)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   rospy
-  std_msgs
-  geometry_msgs
-#XXX: catkin_make issue with dep: contrail_msgs
+#  std_msgs
+#  geometry_msgs
+#  contrail_msgs
 )
 
 ## System dependencies are found with CMake's conventions
