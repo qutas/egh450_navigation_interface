@@ -7,7 +7,7 @@ from catkin_pkg.python_setup import generate_distutils_setup
 setup_args = generate_distutils_setup(
     packages=['egh450_navigation_interface'],
     package_dir={'': 'src'},
-    requires=['std_msgs', 'geometry_msgs', 'contrail_msgs', 'rospy']
+    requires=['std_msgs', 'geometry_msgs', 'contrail_msgs', 'contrail', 'rospy']
 )
 
 setup(**setup_args)
