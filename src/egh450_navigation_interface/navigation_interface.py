@@ -7,7 +7,7 @@ import actionlib
 from actionlib_msgs.msg import GoalStatus
 
 from std_msgs.msg import Empty
-from contrail.msg import TrajectoryAction, TrajectoryGoal
+from contrail_manager.msg import TrajectoryAction, TrajectoryGoal
 from geometry_msgs.msg import PoseStamped
 from geometry_msgs.msg import Vector3
 
